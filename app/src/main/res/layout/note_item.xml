@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginLeft="15dp"
+android:layout_marginTop="8dp"
+android:layout_marginRight="15dp"
+android:layout_marginBottom="4dp"
+app:cardBackgroundColor="#FFFFFFFF"
+app:cardCornerRadius="15dp"
+app:cardElevation="15dp">
+
+<LinearLayout
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="22.04.29"
+            android:textColor="#606060"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/pictureExistsImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/temperTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="13℃"
+            android:textColor="#8F8F8F"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/contentsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:gravity="center"
+            android:text="지하철에서 너무 더웠음"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+</LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
